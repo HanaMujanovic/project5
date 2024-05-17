@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Intruder</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+    <h1>Guess the Intruder!</h1>
+    <div class="image-container">
+        <img src="media/cevapi.jpg" alt="Image 1" class="image" data-level="1" data-intruder="false">
+        <img src="media/sarma.jpg" alt="Image 2" class="image" data-level="1" data-intruder="false">
+        <img src="media/pizza.jpg" alt="Intruder Image" class="image" data-level="1" data-intruder="true">
+    </div>
+
+    <div class="image-container">
+        <img src="media/python.jpg" alt="Image 1" class="image" data-level="2" data-intruder="false">
+        <img src="media/cpp.png" alt="Image 2" class="image" data-level="2" data-intruder="false">
+        <img src="media/html.png" alt="Intruder Image" class="image" data-level="2" data-intruder="true">
+    </div>
+
+    <div class="image-container">
+        <img src="media/linux.png" alt="Image 1" class="image" data-level="3" data-intruder="false">
+        <img src="media/mysql.png" alt="Image 2" class="image" data-level="3" data-intruder="false">
+        <img src="media/react.png" alt="Intruder Image" class="image" data-level="3" data-intruder="true">
+    </div>
+
+    <div id="result"></div>
+    <button id="next-level">Next Level</button>
+    <script src="assets/scripts/script.js"></script>
+</body>
+</html>
